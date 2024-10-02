@@ -1,0 +1,25 @@
+.contact {
+    align-items: center;
+    border-top: 3px solid var(--medium-gray);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 0.5rem;
+    padding-top: 5rem;
+}
+
+.contact__title {
+    color: var(--dark-gray);
+    font-family: var(--monsterrat);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+    text-transform: uppercase;
+}
+
+.join-us__button {
+    background-color: var(--yellow);
+    border: none;
+    color: var(--top-frame);
+    font-weight: bolder;
+    margin-top: 1.8rem;
+}

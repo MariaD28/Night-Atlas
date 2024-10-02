@@ -1,0 +1,16 @@
+.middle-frame {
+    align-items: center;
+    background-color: var(--middle-frame);
+    color: var(--bg-cta-mobile);
+    display: flex;
+    flex: none;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    font-size: 12px;
+    font-weight: bold;
+    height: 45px;
+    justify-content: center;
+    padding: 0;
+    position: relative;
+    width: 100%;
+}

@@ -1,0 +1,51 @@
+.institutional {
+    align-items: center;
+    color: var(--font-gray);
+    display: flex;
+    flex-direction: column;
+    padding-top: 2.5rem;
+    text-align: center;
+}
+
+.institutional__title {
+    color: var(--dark-gray);
+    font-family: var(--monsterrat);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 2rem;
+    padding-top: 1.5rem;
+    text-transform: uppercase;
+}
+
+.institutional__desc {
+    margin-bottom: 2rem;
+}
+
+.institutional__address {
+    font-size: 1.5rem;
+    line-height: normal;
+    margin-bottom: 2rem;
+}
+
+.institutional__contact {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 1.5rem;
+    margin-top: 2rem;
+}
+
+.institutional__contact-phone {
+    line-height: normal;
+}
+
+.institutional__contact-email {
+    color: var(--font-link);
+    display: block;
+    text-decoration: underline;
+}
+
+/* Michael's help re video overflow */
+.institutional__video {
+    height: 400px;
+    width: 100%;
+}

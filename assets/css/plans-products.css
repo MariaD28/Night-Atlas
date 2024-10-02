@@ -1,0 +1,120 @@
+.plans {
+    background-color: var(--light-gray);
+    padding-bottom: 3rem;
+    padding-top: 5rem;
+}
+
+.plans__title {
+    color: var(--dark-gray);
+    font-family: var(--montserrat);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.plans__cards {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding-top: 2rem;
+}
+
+.card {
+    background-color: var(--white);
+    border-radius: 5px;
+    box-shadow: 0 2px 10px 2px #00000010;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+    max-width: 300px;
+    width: 100%;
+}
+
+.card__title {
+    border-bottom: 1px solid var(--light-blue);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: .5rem;
+    padding: .75rem 0;
+    text-align: center;
+}
+
+.card__content {
+    padding: 0 15%;
+}
+
+.card__price {
+    color: var(--top-frame);
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+    margin-top: 1.25rem;
+    text-align: center;
+}
+
+.product__image {
+    align-items: center;
+    background-size: contain;
+    height: 245px;
+    padding: 5px 30px 10px 0.5px;
+    position: relative;
+    width: 240px;
+}
+
+.card__text {
+    color: var(--font-gray);
+    line-height: 28px;
+}
+
+.card__text-highlight {
+    color: var(--font-gray);
+    line-height: 21px;
+}
+
+.card__button {
+    align-self: center;
+    background-color: var(--top-frame);
+    color: var(--white);
+    font-size: 1.2rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    padding: .75rem 2rem;
+    width: 100%;
+}
+
+.card--start {
+    color: var(--middle-frame);
+}
+
+.card--ultra {
+    color: var(--middle-frame);
+}
+
+.card--mega {
+    color: var(--middle-frame);
+}
+
+.card__button--start {
+    border: 3px solid;
+    border-color: var(--top-frame);
+}
+
+.card__button--ultra {
+    border: 3px solid;
+    border-color: var(--top-frame);
+}
+
+.card__button--mega {
+    border: 3px solid;
+    border-color: var(--top-frame);
+}
+
+@media screen and (min-width: 1024px) {
+    .plans__cards {
+        flex-direction: row;
+    } 
+}

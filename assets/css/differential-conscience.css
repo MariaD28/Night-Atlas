@@ -1,0 +1,71 @@
+.differential {
+    padding-bottom: 3.5rem;
+    padding-top: 3.5rem;
+}
+
+.conscience__title {
+    color: var(--dark-gray);
+    font-family: var(--monsterrat);
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-bottom: 1.25rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.conscience__text {
+    text-align: center;
+}
+
+.differential__list {  
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 1rem; 
+}
+
+.differential__item {
+    background-position: top 1rem left 0.5rem;
+    background-repeat: no-repeat;
+    box-sizing: border-box;
+    max-width: 350px;
+    padding: 2rem 0 2rem 7.1rem;
+}
+
+.differential__item--time {
+    background-image: url('../img/icon-tree.png');
+    background-size: 90px;
+}
+
+.differential__item--commitment {
+    background-image: url('../img/icon-local.png');
+    background-size: 90px;
+}
+
+.differential__item--experts {
+    background-image: url('../img/icon-carbon.png');
+    background-size: 90px;
+}
+
+.item__title {
+    color: var(--top-frame);
+    font-size: 1.2rem;
+    font-weight: 700;
+    margin-bottom: 1.5rem;
+    text-transform: uppercase;
+}
+
+.item__desc {
+    line-height: normal;
+}
+
+
+@media screen and (min-width: 1024px) {
+    .differential {
+        background-color: var(--light-gray);
+    }   
+
+    .differential__list {
+        justify-content: space-around;
+    }
+}
